@@ -1,9 +1,9 @@
 "use client";
 
-import Loader from "@/components/Loader";
-import Pagination from "@/components/Pagination";
-import PodcastCard from "@/components/PodcastCard";
-import { usePodcasts } from "@/hooks/usePodcasts";
+import Loader from "../components/Loader";
+import Pagination from "../components/Pagination";
+import PodcastCard from "../components/PodcastCard";
+import { usePodcasts } from "../hooks/usePodcasts";
 
 export default function Podcasts() {
   const {

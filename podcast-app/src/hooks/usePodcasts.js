@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { debounce } from "@/utils/debounce";
+import { debounce } from "../utils/debounce";
 
 export const usePodcasts = (limit = 10) => {
   const [podcasts, setPodcasts] = useState([]);
